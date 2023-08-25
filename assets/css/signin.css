@@ -7,18 +7,13 @@
 body {
   background-image: url(../images/pexels-photo.jpg);
   background-repeat: no-repeat;
-  /* Para cobrir o fundo por completo*/
   background-size: cover;
-  /*caso sobre tela, basta utilizar attachment fixed*/
   background-attachment: fixed;
 }
 
 .container {
-  /*deixar a div em um tamanho flexivel*/
   display: flex;
-  /*deixar completamente no centro da tela*/
   justify-content: center;
-  /* para a largura pegar 100% da tela*/
   width: 100%;
   margin-top: 100px;
 }
@@ -28,30 +23,22 @@ body {
   /*espaçamento do card com o container*/
   padding: 30px;
   border-radius: 4%;
-  /*Sombra para deixar o card mais estilizado, sequencia dos pixels- direita, baixo, esquerda e em cima*/
   box-shadow: 3px 3px 1px 0px #00000060;
 }
 
 h1 {
-  /* alinhar o h1 oara o centro*/
   text-align: center;
   margin-bottom: 20px;
   color: #035453;
 }
 
 .label-float input {
-  /* o input pega a tela toda e faz com que o Label mude para baixo*/
   width: 100%;
-  /*Espaçamento em cima e em baixo*/
   padding: 5px 5px;
-  /* fixar em uma linha  usando inline-block*/
   display: inline-block;
   border: 0;
-  /* borda no input */
   border-bottom: 2px solid #038684;
-  /* deixa a "caixa" do input transparente*/
   background-color: transparent;
-  /*para nao aparecer a borda quando for digitar*/
   outline: none;
   min-width: 180px;
   font-size: 16px;
@@ -59,7 +46,6 @@ h1 {
   border-radius: 0;
 }
 
-/*fundo das caixas do usuario, senha*/
 .label-float {
   position: relative;
   padding-top: 13px;
@@ -67,7 +53,6 @@ h1 {
   margin-bottom: 5%;
 }
 
-/*muda a cor das "linhas" (label)*/
 .label-float input:focus {
   border-bottom: 2px solid #7ed2d1;
 }
@@ -83,7 +68,6 @@ h1 {
   transition: all 0.3s ease-out;
 }
 
-/* muda  cor da label (usuario,senha) quando o usuario clicar*/
 .label-float input:focus + label {
   font-size: 13px;
   margin-top: 0;
@@ -111,7 +95,7 @@ h1 {
   /*efeito leve no botão de "entrar"*/
   transition: all 0.3s ease-out;
 }
-/* hover para quando o usuario passar o cursor automaticamente muda de cor*/
+
 button:hover {
   background-color: #035453;
   color: #fff;

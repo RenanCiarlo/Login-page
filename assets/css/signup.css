@@ -7,34 +7,26 @@
 body {
   background-image: url(../images/capa-tenis.jpeg);
   background-repeat: no-repeat;
-  /* Para cobrir o fundo por completo*/
   background-size: cover;
-  /*caso sobre tela, basta utilizar attachment fixed*/
   background-attachment: fixed;
 }
 
 .container {
-  /*deixar a div em um tamanho flexivel*/
   display: flex;
-  /*deixar completamente no centro da tela*/
   justify-content: center;
-  /* para a largura pegar 100% da tela*/
   width: 100%;
   margin-top: 100px;
 }
 
 .card {
   background-color: #ffffffba;
-  /*espaçamento do card com o container*/
   padding: 30px;
   border-radius: 4%;
-  /*Sombra para deixar o card mais estilizado, sequencia dos pixels- direita, baixo, esquerda e em cima*/
   box-shadow: 3px 3px 1px 0px #00000060;
   width: 400px;
 }
 
 h1 {
-  /* alinhar o h1 oara o centro*/
   text-align: center;
   margin-bottom: 20px;
   color: rgb(7, 7, 85);
@@ -44,16 +36,11 @@ h1 {
 .label-float input {
   /* o input pega a tela toda e faz com que o Label mude para baixo*/
   width: 100%;
-  /*Espaçamento em cima e em baixo*/
   padding: 5px 5px;
-  /* fixar em uma linha  usando inline-block*/
   display: inline-block;
   border: 0;
-  /* borda no input */
   border-bottom: 2px solid rgb(7, 7, 85);
-  /* deixa a "caixa" do input transparente*/
   background-color: transparent;
-  /*para nao aparecer a borda quando for digitar*/
   outline: none;
   min-width: 180px;
   font-size: 16px;
@@ -68,7 +55,6 @@ h1 {
   margin-bottom: 5%;
 }
 
-/*muda a cor das "linhas" da label*/
 .label-float input:focus {
   border-bottom: 2px solid rgba(78, 87, 206, 0.82);
 }
@@ -80,7 +66,6 @@ h1 {
   top: 0;
   left: 0;
   margin-top: 13px;
-  /*Pequena animação para o label "usuario" e "senha" se mova pra cima bem levemente*/
   transition: all 0.3s ease-out;
 }
 
@@ -96,7 +81,6 @@ h1 {
   background-color: transparent;
   border-color: rgba(37, 46, 174, 0.82);
   color: rgb(7, 7, 85);
-  /*espaçamento*/
   padding: 10px;
   font-weight: bold;
   font-size: 12pt;
@@ -107,7 +91,7 @@ h1 {
   /*efeito leve no botão de "entrar"*/
   transition: all 0.3s ease-out;
 }
-/* hover para quando o usuario passar o cursor automaticamente muda de cor*/
+
 button:hover {
   background-color: rgb(7, 7, 85);
   color: white;
@@ -132,7 +116,6 @@ button:hover {
   background-color: #ffbbbb;
   padding: 10px;
   border-radius: 4px;
-  /*Para nao aparecer a borda na tela*/
   display: none;
 }
 
