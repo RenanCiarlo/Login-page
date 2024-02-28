@@ -1,8 +1,8 @@
-# Tela-Cadastro-Login
+## Projeto Login/Cadastro :rocket:
 
-### Nesse projeto fiz uma tela de cadastro/login utilizando HTML,CSS com validação/autenticação utilizando JavaScript.
+### Nesse projeto foi feito uma tela de login e outra de cadastro,para fazer o teste primeiro faça o cadastro!
 
-- Link para o site https://renanciarlo.github.io/Tela--Cadastro--Login/
+#### Acesse aqui -> https://renanciarlo.github.io/Login-page/
 
 ## Tecnologias usadas:
 
