@@ -3,82 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/vars__home.css" />
+    <link rel="stylesheet" href="assets/css/media_query.css">
+    <title>Test Page</title>
   </head>
   <body>
-    <!---Cabeçalho-->
+    <!---Header-->
     <header>
-      <div class="menu">
-        <div class="left-side-menu">
-          <div class="logo">
-            <img src="assets/images/logos-home1.png" alt="logo-pagina" />
-          </div>
-        </div>
+      <a href="#" class="logo"
+        ><i class=></i>PÁGINA TESTE(CLIQUE EM SAIR)!!</a>
 
-        <div class="right-side-menu">
-          <a href=""
-            ><img
-              class="cart"
-              src="assets/images/icon-cart2.png"
-              alt="icone-carrinho de compras"
-          /></a>
-          <a href="" class="botão-sair"
-            ><button class="botão-sair" onclick="sair()">Sair</button></a
-          >
-        </div>
+      <!--Header Icons-->
+      <div class="header-icons">
+        <i class="bx bx-cart"></i>
+        <a href="" class="botão-sair"
+          ><button class="botão-sair" onclick="sair()">Sair</button></a
+        >
       </div>
-      <div class="line"></div>
     </header>
-    <!--Main-->
-    <main>
-      <section>
-        <div class="container">
-          <div class="lef-side">
-            <div class="items">
-              <div class="select-image">
-                <img
-                  src="assets/images/produto-12.jpeg"
-                  alt="raquete de tenis"
-                />
-              </div>
-              <div class="thumbnails">
-                <div class="thumbnail">
-                  <img
-                    src="assets/images/thumbnail-1.jpeg"
-                    alt="imagem jogador de futebol"
-                  />
-                </div>
-                <div class="thumbnail">
-                  <img
-                    src="assets/images/thumbnail-23.jpeg"
-                    alt="imagem jogador de basquete"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="right-side">
-            <h5>ELITE SPORTS</h5>
-            <h1 id="logado"></h1>
-            <p>Elite Sports é uma loja especializada em artigos esportivos.</p>
-            <br />
-            <p>
-              <strong
-                >(PÁGINA TESTE!!! APERTE EM SAIR PARA FAZER O CADASTRO/LOGIN)
-              </strong>
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
     <script src="./assets/js/index.js"></script>
   </body>
 </html>

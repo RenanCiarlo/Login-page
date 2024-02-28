@@ -1,0 +1,8 @@
+:root {
+  --bg-color: var(--bg-color) #101113;
+  --text-color: #fff;
+  --main-color: #34e7f8;
+  --other-color: #fcfcfc;
+  --h1-font: 2rem;
+  --p-font: 1rem;
+}

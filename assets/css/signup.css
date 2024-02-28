@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../images/capa-tenis.jpeg);
+  background-image: url(../images/image-signup.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  background-color: #ffffffba;
+  background-color: #2a363bd5;
   padding: 30px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #00000060;
@@ -29,7 +29,7 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: rgb(7, 7, 85);
+  color: #e84a5f;
   font-size: 30px;
 }
 
@@ -39,13 +39,14 @@ h1 {
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid rgb(7, 7, 85);
+  border-bottom: 2px solid #fecea8;
   background-color: transparent;
   outline: none;
   min-width: 180px;
   font-size: 16px;
   transition: all 0.3s ease-out;
   border-radius: 0;
+  color: white;
 }
 
 .label-float {
@@ -56,11 +57,11 @@ h1 {
 }
 
 .label-float input:focus {
-  border-bottom: 2px solid rgba(78, 87, 206, 0.82);
+  border-bottom: 2px solid #99b898;
 }
 
 .label-float label {
-  color: rgba(16, 3, 157, 0.82);
+  color: #ff847c;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -74,13 +75,13 @@ h1 {
 .label-float input:valid + label {
   font-size: 13px;
   margin-top: 0;
-  color: rgba(78, 87, 206, 0.82);
+  color: #be2a3e;
 }
 
 .button-cadastro {
   background-color: transparent;
-  border-color: rgba(37, 46, 174, 0.82);
-  color: rgb(7, 7, 85);
+  border-color: #99b898;
+  color: #e84a5f;;
   padding: 10px;
   font-weight: bold;
   font-size: 12pt;
@@ -93,7 +94,7 @@ h1 {
 }
 
 button:hover {
-  background-color: rgb(7, 7, 85);
+  background-color: #e84a5f;
   color: white;
 }
 
@@ -107,7 +108,7 @@ button:hover {
   top: 15px;
   right: 10px;
   cursor: pointer;
-  color: rgba(8, 3, 97, 0.82);
+  color:  #99b898;
 }
 
 #msgError {

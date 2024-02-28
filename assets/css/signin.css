@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../images/pexels-photo.jpg);
+  background-image: url(../images/image-signin.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  background-color: #ffede18d;
+  background-color: #2d3651dd;
   /*espaçamento do card com o container*/
   padding: 30px;
   border-radius: 4%;
@@ -29,7 +29,7 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #035453;
+  color: #fb8c24ed;
 }
 
 .label-float input {
@@ -37,13 +37,14 @@ h1 {
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #038684;
+  border-bottom: 2px solid #060c1c;
   background-color: transparent;
   outline: none;
   min-width: 180px;
   font-size: 16px;
   transition: all 0.3s ease-out;
   border-radius: 0;
+  color: rgb(205, 203, 203);
 }
 
 .label-float {
@@ -54,11 +55,11 @@ h1 {
 }
 
 .label-float input:focus {
-  border-bottom: 2px solid #7ed2d1;
+  border-bottom: 2px solid #9f9f9f;
 }
 
 .label-float label {
-  color: #035453;
+  color: #f99006d4;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -71,19 +72,19 @@ h1 {
 .label-float input:focus + label {
   font-size: 13px;
   margin-top: 0;
-  color: #7ed2d1;
+  color: #ef7300fb;
 }
 /* para manter os labels para cima quando o usuario ja digitou os dados*/
 .label-float input:valid + label {
   font-size: 13px;
   margin-top: 0;
-  color: #7ed2d1;
+  color: #ef7300fb;
 }
 
 .button-login {
   background-color: transparent;
-  border-color: #038684;
-  color: #017b79;
+  border-color: #adadad;
+  color: #dcdee0;
   /*espaçamento*/
   padding: 7px;
   font-weight: bold;
@@ -97,8 +98,8 @@ h1 {
 }
 
 button:hover {
-  background-color: #035453;
-  color: #fff;
+  background-color: #060c1c;
+  color: #fb8b24;
 }
 
 .button-center {
@@ -113,20 +114,20 @@ hr {
 }
 
 p {
-  color: #017b79;
+  color: #b6b6b7;
   font-size: 14pt;
   text-align: center;
 }
 
 a {
-  color: #055e5d;
+  color: #c5c5c6;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
 
 a:hover {
-  color: #023534;
+  color: #fb8b24;
 }
 
 .fa-eye {
@@ -134,7 +135,7 @@ a:hover {
   top: 15px;
   right: 10px;
   cursor: pointer;
-  color: #035453;
+  color: #919294;
 }
 
 #msgError {

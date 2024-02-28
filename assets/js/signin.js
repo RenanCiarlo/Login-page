@@ -55,7 +55,7 @@ function entrar() {
     senhaLabel.setAttribute("style", "color: red");
     senha.setAttribute("style", "border-color: red");
     msgError.setAttribute("style", "display: block");
-    msgError.innerHTML = "usuario ou senha incorretos";
+    msgError.innerHTML = "incorrect username or password";
     usuario.focus();
   }
 }
